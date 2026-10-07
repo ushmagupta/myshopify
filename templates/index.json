@@ -15,8 +15,6 @@
         "promo_carousel_slide_1": {
           "type": "slide",
           "settings": {
-            "image_desktop": "",
-            "image_mobile": "",
             "image_asset_desktop": "promo-carousel-1-desktop.jpg",
             "image_asset_mobile": "promo-carousel-1-mobile.jpg",
             "heading": "New arrivals",
@@ -31,8 +29,6 @@
         "promo_carousel_slide_2": {
           "type": "slide",
           "settings": {
-            "image_desktop": "",
-            "image_mobile": "",
             "image_asset_desktop": "promo-carousel-2-desktop.jpg",
             "image_asset_mobile": "promo-carousel-2-mobile.jpg",
             "heading": "Limited-time offer",
@@ -47,8 +43,6 @@
         "promo_carousel_slide_3": {
           "type": "slide",
           "settings": {
-            "image_desktop": "",
-            "image_mobile": "",
             "image_asset_desktop": "promo-carousel-3-desktop.jpg",
             "image_asset_mobile": "promo-carousel-3-mobile.jpg",
             "heading": "Free shipping",
@@ -76,7 +70,7 @@
         "banner_height_custom": 420,
         "default_overlay_opacity": 20,
         "autoplay": true,
-        "autoplay_interval": 5,
+        "autoplay_interval": 3,
         "show_arrows": true,
         "show_dots": true
       }
