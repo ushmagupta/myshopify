@@ -9,53 +9,76 @@
  */
 {
   "sections": {
-    "6a3bb789-ce10-45f5-ae67-e2063ef8c76b": {
-      "type": "image-banner",
+    "promo_carousel": {
+      "type": "promo-carousel",
       "blocks": {
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-0": {
-          "type": "heading",
+        "promo_carousel_slide_1": {
+          "type": "slide",
           "settings": {
-            "heading": "Generated test data",
-            "heading_size": "h1"
+            "image_desktop": "",
+            "image_mobile": "",
+            "image_asset_desktop": "promo-carousel-1-desktop.jpg",
+            "image_asset_mobile": "promo-carousel-1-mobile.jpg",
+            "heading": "New arrivals",
+            "description": "<p>Discover the latest products curated for your store.</p>",
+            "button_label": "Shop new in",
+            "button_link": "shopify://collections/all",
+            "text_alignment": "left",
+            "show_overlay": true,
+            "overlay_opacity": 35
           }
         },
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1": {
-          "type": "text",
+        "promo_carousel_slide_2": {
+          "type": "slide",
           "settings": {
-            "text": "A theme and populated test store by Shopify to help you test commerce primitives.",
-            "text_style": "body"
+            "image_desktop": "",
+            "image_mobile": "",
+            "image_asset_desktop": "promo-carousel-2-desktop.jpg",
+            "image_asset_mobile": "promo-carousel-2-mobile.jpg",
+            "heading": "Limited-time offer",
+            "description": "<p>Save on bestsellers this week only.</p>",
+            "button_label": "View deals",
+            "button_link": "shopify://collections/all",
+            "text_alignment": "left",
+            "show_overlay": true,
+            "overlay_opacity": 35
           }
         },
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-2": {
-          "type": "buttons",
+        "promo_carousel_slide_3": {
+          "type": "slide",
           "settings": {
-            "button_label_1": "Shop products",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image_desktop": "",
+            "image_mobile": "",
+            "image_asset_desktop": "promo-carousel-3-desktop.jpg",
+            "image_asset_mobile": "promo-carousel-3-mobile.jpg",
+            "heading": "Free shipping",
+            "description": "<p>Enjoy complimentary delivery on qualifying orders.</p>",
+            "button_label": "Learn more",
+            "button_link": "shopify://collections/all",
+            "text_alignment": "left",
+            "show_overlay": true,
+            "overlay_opacity": 35
           }
         }
       },
       "block_order": [
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-0",
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1",
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-2"
+        "promo_carousel_slide_1",
+        "promo_carousel_slide_2",
+        "promo_carousel_slide_3"
       ],
-      "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/theme_cover_image.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "left",
+        "accessibility_label": "Promotional banners",
         "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "heading_size": "h1",
+        "button_style": "primary",
+        "banner_height_mode": "aspect_ratio",
+        "aspect_ratio": "3 / 1",
+        "banner_height_custom": 420,
+        "default_overlay_opacity": 20,
+        "autoplay": true,
+        "autoplay_interval": 5,
+        "show_arrows": true,
+        "show_dots": true
       }
     },
     "featured_collection": {
@@ -165,7 +188,7 @@
     }
   },
   "order": [
-    "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
+    "promo_carousel",
     "featured_collection",
     "f1552b18-6017-4231-810d-74e61da22c37",
     "38cdf60f-e431-43b5-aac3-7e6215447d67"
